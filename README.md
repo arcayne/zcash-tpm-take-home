@@ -1,5 +1,7 @@
 # Zcash Foundation TPM Take-Home
 
+[Part 1: Delivery triage](#part-1-engineering-delivery-triage) · [Part 2: Context tooling PRD](part-2-context-tooling-prd.md) · [Example daily brief](part-2-example-daily-brief.md)
+
 ## Part 1: Engineering delivery triage
 
 **Author:** Joan De Arcayne  
