@@ -16,6 +16,21 @@ I would focus first on two dated decisions: what still holds the Zebra v6.4.0 re
 
 The goal is not to reprioritize engineering from a board snapshot. It is to make the next decision, owner, dependency, and evidence visible for each item, then take tradeoffs to the Head of Engineering when commitments compete.
 
+## Problem
+
+Delivery context is spread across the project board, issues, pull requests, reviews, checks, linked repositories, and ecosystem discussions. Those sources describe different stages of work. An open card may represent an active implementation, an unattended review, a deliberate pause, or a record that needs cleanup. A merged change may still need release, adoption, or network activation. Without a shared view, the team can spend time reconstructing context instead of finishing work.
+
+## Objective
+
+Create a first-week delivery picture that gives the team a practical starting point for follow-up. For each important item, the picture should make the current state, next decision, owner, dependency, readiness evidence, and checkpoint easy to find. It should also provide a basis for cross-team NU7 coordination and a daily way to retain context as the work changes.
+
+## Non-goals
+
+- Audit every issue and pull request.
+- Infer staffing capacity, private priorities, or individual performance from public activity.
+- Diagnose technical failures without the relevant maintainers.
+- Change engineering priorities or release decisions without the Head of Engineering and technical owners.
+
 ## Scope and evidence
 
 This review uses the [All Engineering board](https://github.com/orgs/ZcashFoundation/projects/22/views/1), linked repositories, and public ecosystem discussions. The hiring team confirmed that All Engineering is the intended assessment view. Board observations are from September 17. I checked selected issues, pull requests, reviews, checks, and the NU7 timeline again on September 18. The Zebra code reference is [ec8f29ea726b](https://github.com/ZcashFoundation/zebra/commit/ec8f29ea726bea2fad73829ddc76af054eae623d) on `main`.
